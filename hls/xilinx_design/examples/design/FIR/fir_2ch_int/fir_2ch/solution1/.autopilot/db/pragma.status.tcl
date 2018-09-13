@@ -1,0 +1,2 @@
+lappend pragmaStatus0 {pragma "INTERFACE" source "E:/code/hls/xilinx_design/examples/design/FIR/fir_2ch_int/fir_2ch_int.cpp" location "fir_top" found 1 funcFound 1 applied 1 ambiguous 0 reason "null"}
+lappend pragmaStatus1 {pragma "INTERFACE" source "E:/code/hls/xilinx_design/examples/design/FIR/fir_2ch_int/fir_2ch_int.cpp" location "fir_top" found 1 funcFound 1 applied 1 ambiguous 0 reason "null"}

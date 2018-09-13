@@ -1,0 +1,5 @@
+set_directive_pipeline "matrix_multiply_default/a_col_loop"
+set_directive_pipeline "matrix_multiply_alt1/b_col_loop"
+set_directive_pipeline "matrix_multiply_alt2/b_col_loop"
+
+# XSIP watermark, do not delete 67d7842dbbe25473c3c32b93c0da8047785f30d78e8a024de1b57352245f9689

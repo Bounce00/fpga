@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog>
+        <logs message="ERROR: [HLS 200-70] Failed building synthesis data model.&#xD;&#xA;command 'ap_source' returned error code&#xD;&#xA;    while executing&#xD;&#xA;&quot;source E:/code/hls/xilinx_design/examples/design/FIR/fir_2ch_int/fir_2ch/solution1/csynth.tcl&quot;&#xD;&#xA;    invoked from within&#xD;&#xA;&quot;hls::main E:/code/hls/xilinx_design/examples/design/FIR/fir_2ch_int/fir_2ch/solution1/csynth.tcl&quot;&#xD;&#xA;    (&quot;uplevel&quot; body line 1)&#xD;&#xA;    invoked from within&#xD;&#xA;&quot;uplevel 1 hls::main {*}$args&quot;&#xD;&#xA;    (procedure &quot;hls_proc&quot; line 5)&#xD;&#xA;    invoked from within&#xD;&#xA;&quot;hls_proc $argv&quot;&#xD;&#xA;" projectName="fir_2ch" solutionName="solution1" date="2017-08-07T10:26:55.707+0800"/>
+        <logs message="ERROR: [XFORM 203-801] Interface mode 'ap_auto' on the actual argument 'fir_out.V' (fir_2ch_int.cpp:159) is incompatible with the mode 'ap_fifo' on the formal argument 'out.V' (D:/Xilinx/Vivado_HLS/2016.4/common/technology/autopilot\hls_fir.h:581) for function 'run' (D:/Xilinx/Vivado_HLS/2016.4/common/technology/autopilot\hls_fir.h:580). Please consider to duplicate the function to avoid mode conflicts." projectName="fir_2ch" solutionName="solution1" date="2017-08-07T10:26:55.052+0800"/>
+        <logs message="ERROR: [XFORM 203-801] Interface mode 'ap_auto' on the actual argument 'fir_in.V' (fir_2ch_int.cpp:158) is incompatible with the mode 'ap_fifo' on the formal argument 'in.V' (D:/Xilinx/Vivado_HLS/2016.4/common/technology/autopilot\hls_fir.h:580) for function 'run' (D:/Xilinx/Vivado_HLS/2016.4/common/technology/autopilot\hls_fir.h:580). Please consider to duplicate the function to avoid mode conflicts." projectName="fir_2ch" solutionName="solution1" date="2017-08-07T10:26:55.052+0800"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [XFORM 203-631] Renaming function 'hls::FIR&lt;my_params>::run' (D:/Xilinx/Vivado_HLS/2016.4/common/technology/autopilot\hls_fir.h:580) into run." projectName="fir_2ch" solutionName="solution1" date="2017-08-07T10:26:55.052+0800" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-1103] Ignored data pack directive on non-struct variable 'fir_out.V' (fir_2ch_int.cpp:159)." projectName="fir_2ch" solutionName="solution1" date="2017-08-07T10:26:54.724+0800" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-1103] Ignored data pack directive on non-struct variable 'fir_in.V' (fir_2ch_int.cpp:158)." projectName="fir_2ch" solutionName="solution1" date="2017-08-07T10:26:54.646+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 200-40] " projectName="fir_2ch" solutionName="solution1" date="2017-08-07T10:26:53.601+0800" type="Warning"/>
+        <logs message="WARNING: [HLS 200-40] In file included from fir_2ch_int.cpp:92:&#xD;&#xA;In file included from ./fir_2ch_int.h:94:&#xD;&#xA;D:/Xilinx/Vivado_HLS/2016.4/include\hls_fir.h:174:25: warning: in-class initializer for static data member of type 'const double' is a GNU extension [-Wgnu]&#xD;&#xA;    static const double sample_frequency = 0.001;&#xD;&#xA;                        ^                  ~~~~~&#xD;&#xA;1 warning generated." projectName="fir_2ch" solutionName="solution1" date="2017-08-07T10:26:44.536+0800" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

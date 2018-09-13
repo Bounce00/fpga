@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="windows_func_weshu.cpp" path="E:\code\hls\weifeng_hls\windows_func_weshu.cpp"/>
+    <originFiles name="polyfilter_params.cpp" path="E:\code\hls\weifeng_hls\polyfilter_params.cpp"/>
+    <originFiles name="poly_filter.cpp" path="E:\code\hls\weifeng_hls\poly_filter.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="poly_filter_test.cpp" path="E:\code\hls\weifeng_hls\poly_filter_test.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="fft_top.cpp" path="E:\code\hls\xilinx_design\examples\design\FFT\fft_ifft\fft_top.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="fft_tb.cpp" path="E:\code\hls\xilinx_design\examples\design\FFT\fft_ifft\fft_tb.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

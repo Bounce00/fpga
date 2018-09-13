@@ -1,0 +1,102 @@
+
+
+NET  "sysclk"        LOC = "K13" ;    //33M 
+
+
+########################################################### 
+
+NET "dclk1_p"   LOC = N33   | IOSTANDARD = LVDS_25  |  DIFF_TERM  = TRUE;   
+NET "dclk1_n"   LOC = M33   | IOSTANDARD = LVDS_25  |  DIFF_TERM  = TRUE; 
+
+NET "dclk2_p"   LOC = K26   | IOSTANDARD = LVDS_25  |  DIFF_TERM  = TRUE;   
+NET "dclk2_n"   LOC = K27   | IOSTANDARD = LVDS_25  |  DIFF_TERM  = TRUE; 
+
+
+NET "di1_p[0]"   LOC = L25  | IOSTANDARD = LVDS_25  |  DIFF_TERM  = TRUE;
+NET "di1_n[0]"   LOC = L26  | IOSTANDARD = LVDS_25  |  DIFF_TERM  = TRUE;
+NET "di1_p[1]"   LOC = M31  | IOSTANDARD = LVDS_25  |  DIFF_TERM  = TRUE;
+NET "di1_n[1]"   LOC = L31  | IOSTANDARD = LVDS_25  |  DIFF_TERM  = TRUE;
+NET "di1_p[2]"   LOC = K28  | IOSTANDARD = LVDS_25  |  DIFF_TERM  = TRUE;
+NET "di1_n[2]"   LOC = J29  | IOSTANDARD = LVDS_25  |  DIFF_TERM  = TRUE;
+NET "di1_p[3]"   LOC = G31  | IOSTANDARD = LVDS_25  |  DIFF_TERM  = TRUE;
+NET "di1_n[3]"   LOC = H30  | IOSTANDARD = LVDS_25  |  DIFF_TERM  = TRUE;
+NET "di1_p[4]"   LOC = J30  | IOSTANDARD = LVDS_25  |  DIFF_TERM  = TRUE;
+NET "di1_n[4]"   LOC = K29  | IOSTANDARD = LVDS_25  |  DIFF_TERM  = TRUE;
+NET "di1_p[5]"   LOC = M26  | IOSTANDARD = LVDS_25  |  DIFF_TERM  = TRUE;
+NET "di1_n[5]"   LOC = M27  | IOSTANDARD = LVDS_25  |  DIFF_TERM  = TRUE;
+NET "di1_p[6]"   LOC = L29  | IOSTANDARD = LVDS_25  |  DIFF_TERM  = TRUE;
+NET "di1_n[6]"   LOC = L30  | IOSTANDARD = LVDS_25  |  DIFF_TERM  = TRUE;
+NET "di1_p[7]"   LOC = M30  | IOSTANDARD = LVDS_25  |  DIFF_TERM  = TRUE;
+NET "di1_n[7]"   LOC = N30  | IOSTANDARD = LVDS_25  |  DIFF_TERM  = TRUE;
+                                                  
+NET "dq1_p[0]"   LOC = N28  | IOSTANDARD = LVDS_25  |  DIFF_TERM  = TRUE;
+NET "dq1_n[0]"   LOC = N29  | IOSTANDARD = LVDS_25  |  DIFF_TERM  = TRUE;
+NET "dq1_p[1]"   LOC = P25  | IOSTANDARD = LVDS_25  |  DIFF_TERM  = TRUE;
+NET "dq1_n[1]"   LOC = P26  | IOSTANDARD = LVDS_25  |  DIFF_TERM  = TRUE;
+NET "dq1_p[2]"   LOC = R26  | IOSTANDARD = LVDS_25  |  DIFF_TERM  = TRUE;
+NET "dq1_n[2]"   LOC = T26  | IOSTANDARD = LVDS_25  |  DIFF_TERM  = TRUE;
+NET "dq1_p[3]"   LOC = N25  | IOSTANDARD = LVDS_25  |  DIFF_TERM  = TRUE;
+NET "dq1_n[3]"   LOC = M25  | IOSTANDARD = LVDS_25  |  DIFF_TERM  = TRUE;
+NET "dq1_p[4]"   LOC = H34  | IOSTANDARD = LVDS_25  |  DIFF_TERM  = TRUE;
+NET "dq1_n[4]"   LOC = H33  | IOSTANDARD = LVDS_25  |  DIFF_TERM  = TRUE;
+NET "dq1_p[5]"   LOC = N27  | IOSTANDARD = LVDS_25  |  DIFF_TERM  = TRUE;
+NET "dq1_n[5]"   LOC = P27  | IOSTANDARD = LVDS_25  |  DIFF_TERM  = TRUE;
+NET "dq1_p[6]"   LOC = L28  | IOSTANDARD = LVDS_25  |  DIFF_TERM  = TRUE;
+NET "dq1_n[6]"   LOC = M28  | IOSTANDARD = LVDS_25  |  DIFF_TERM  = TRUE;
+NET "dq1_p[7]"   LOC = R28  | IOSTANDARD = LVDS_25  |  DIFF_TERM  = TRUE;
+NET "dq1_n[7]"   LOC = R27  | IOSTANDARD = LVDS_25  |  DIFF_TERM  = TRUE;
+
+NET "di2_p[0]"   LOC = C33  | IOSTANDARD = LVDS_25  |  DIFF_TERM  = TRUE;
+NET "di2_n[0]"   LOC = B34  | IOSTANDARD = LVDS_25  |  DIFF_TERM  = TRUE;
+NET "di2_p[1]"   LOC = A33  | IOSTANDARD = LVDS_25  |  DIFF_TERM  = TRUE;
+NET "di2_n[1]"   LOC = B33  | IOSTANDARD = LVDS_25  |  DIFF_TERM  = TRUE;
+NET "di2_p[2]"   LOC = C32  | IOSTANDARD = LVDS_25  |  DIFF_TERM  = TRUE;
+NET "di2_n[2]"   LOC = B32  | IOSTANDARD = LVDS_25  |  DIFF_TERM  = TRUE;
+NET "di2_p[3]"   LOC = D34  | IOSTANDARD = LVDS_25  |  DIFF_TERM  = TRUE;
+NET "di2_n[3]"   LOC = C34  | IOSTANDARD = LVDS_25  |  DIFF_TERM  = TRUE;
+NET "di2_p[4]"   LOC = D31  | IOSTANDARD = LVDS_25  |  DIFF_TERM  = TRUE;
+NET "di2_n[4]"   LOC = D32  | IOSTANDARD = LVDS_25  |  DIFF_TERM  = TRUE;
+NET "di2_p[5]"   LOC = E32  | IOSTANDARD = LVDS_25  |  DIFF_TERM  = TRUE;
+NET "di2_n[5]"   LOC = E33  | IOSTANDARD = LVDS_25  |  DIFF_TERM  = TRUE;
+NET "di2_p[6]"   LOC = F31  | IOSTANDARD = LVDS_25  |  DIFF_TERM  = TRUE;
+NET "di2_n[6]"   LOC = E31  | IOSTANDARD = LVDS_25  |  DIFF_TERM  = TRUE;
+NET "di2_p[7]"   LOC = J26  | IOSTANDARD = LVDS_25  |  DIFF_TERM  = TRUE;
+NET "di2_n[7]"   LOC = J27  | IOSTANDARD = LVDS_25  |  DIFF_TERM  = TRUE;
+                                                  
+
+NET "dq2_p[0]"   LOC = F33  | IOSTANDARD = LVDS_25  |  DIFF_TERM  = TRUE;
+NET "dq2_n[0]"   LOC = G33  | IOSTANDARD = LVDS_25  |  DIFF_TERM  = TRUE;
+NET "dq2_p[1]"   LOC = N32  | IOSTANDARD = LVDS_25  |  DIFF_TERM  = TRUE;
+NET "dq2_n[1]"   LOC = P32  | IOSTANDARD = LVDS_25  |  DIFF_TERM  = TRUE;
+NET "dq2_p[2]"   LOC = E34  | IOSTANDARD = LVDS_25  |  DIFF_TERM  = TRUE;
+NET "dq2_n[2]"   LOC = F34  | IOSTANDARD = LVDS_25  |  DIFF_TERM  = TRUE;
+NET "dq2_p[3]"   LOC = J31  | IOSTANDARD = LVDS_25  |  DIFF_TERM  = TRUE;
+NET "dq2_n[3]"   LOC = J32  | IOSTANDARD = LVDS_25  |  DIFF_TERM  = TRUE;
+NET "dq2_p[4]"   LOC = L33  | IOSTANDARD = LVDS_25  |  DIFF_TERM  = TRUE;
+NET "dq2_n[4]"   LOC = M32  | IOSTANDARD = LVDS_25  |  DIFF_TERM  = TRUE;
+NET "dq2_p[5]"   LOC = F30  | IOSTANDARD = LVDS_25  |  DIFF_TERM  = TRUE;
+NET "dq2_n[5]"   LOC = G30  | IOSTANDARD = LVDS_25  |  DIFF_TERM  = TRUE;
+NET "dq2_p[6]"   LOC = G32  | IOSTANDARD = LVDS_25  |  DIFF_TERM  = TRUE;
+NET "dq2_n[6]"   LOC = H32  | IOSTANDARD = LVDS_25  |  DIFF_TERM  = TRUE;
+NET "dq2_p[7]"   LOC = K33  | IOSTANDARD = LVDS_25  |  DIFF_TERM  = TRUE;
+NET "dq2_n[7]"   LOC = J34  | IOSTANDARD = LVDS_25  |  DIFF_TERM  = TRUE;
+
+
+
+#NET "led[0]" LOC = E16 ;
+#NET "led[1]" LOC = D16 ;
+
+
+#NET "f_sdio"              LOC = AE9   | IOSTANDARD = LVCMOS25;
+#NET "f_sclk"             LOC = AK9   | IOSTANDARD = LVCMOS25;
+#NET "f_scs1"              LOC = AD29   | IOSTANDARD = LVCMOS25;
+#NET "f_scs2"              LOC = AC29   | IOSTANDARD = LVCMOS25;
+
+NET "f_ad9512_sclk"      LOC = AA26  | IOSTANDARD = LVCMOS25;
+NET "f_ad9512_sdio"      LOC = AB26  | IOSTANDARD = LVCMOS25;
+NET "f_ad9512_csb"       LOC = AB25  | IOSTANDARD = LVCMOS25;
+
+
+
+
+

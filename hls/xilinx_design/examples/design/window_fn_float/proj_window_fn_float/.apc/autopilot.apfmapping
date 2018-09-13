@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="window_fn_top.cpp" path="E:\code\hls\xilinx_design\examples\design\window_fn_float\window_fn_top.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="window_fn_test.cpp" path="E:\code\hls\xilinx_design\examples\design\window_fn_float\window_fn_test.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>
