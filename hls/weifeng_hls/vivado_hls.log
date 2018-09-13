@@ -1,0 +1,8 @@
+INFO: [HLS 200-10] Running 'D:/Xilinx/Vivado_HLS/2016.4/bin/unwrapped/win64.o/vivado_hls.exe'
+INFO: [HLS 200-10] For user 'dell' on host 'dell-pc' (Windows NT_amd64 version 6.1) on Fri Aug 25 14:39:24 +0800 2017
+INFO: [HLS 200-10] In directory 'E:/code/hls/weifeng_hls'
+INFO: [HLS 200-10] Opening project 'E:/code/hls/weifeng_hls/poly'.
+INFO: [HLS 200-10] Adding design file 'windows_func_weshu.cpp' to the project
+INFO: [HLS 200-10] Adding design file 'polyfilter_params.cpp' to the project
+INFO: [HLS 200-10] Adding design file 'poly_filter.cpp' to the project
+INFO: [HLS 200-10] Adding test bench file 'poly_filter_test.cpp' to the project

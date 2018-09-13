@@ -1,0 +1,71 @@
+INFO: [HLS 200-10] Running 'D:/Xilinx/Vivado_HLS/2016.4/bin/unwrapped/win64.o/vivado_hls.exe'
+INFO: [HLS 200-10] For user 'dell' on host 'dell-pc' (Windows NT_amd64 version 6.1) on Tue Aug 22 16:12:39 +0800 2017
+INFO: [HLS 200-10] In directory 'E:/code/hls/polyfilter/polyfilter3_syn'
+INFO: [HLS 200-10] Opening project 'E:/code/hls/polyfilter/polyfilter3_syn/polyfilter'.
+INFO: [HLS 200-10] Opening solution 'E:/code/hls/polyfilter/polyfilter3_syn/polyfilter/solution1'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z045ffg900-2'
+INFO: [SIM 211-2] *************** CSIM start ***************
+WARNING: [SIM 211-51] HLS only supports CLANG compiler in Linux.
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+   Compiling ../../../../polyfilter_tb.cpp in debug mode
+   Compiling ../../../../fft_top.cpp in debug mode
+   Compiling ../../../../fir.cpp in debug mode
+   Compiling ../../../../polyfilter_top.cpp in debug mode
+   Generating csim.exe
+In file included from D:/Xilinx/Vivado_HLS/2016.4/include/floating_point_v7_0_bitacc_cmodel.h:143:0,
+                 from D:/Xilinx/Vivado_HLS/2016.4/include/hls_half.h:40,
+                 from D:/Xilinx/Vivado_HLS/2016.4/include/hls/utils/x_hls_utils.h:37,
+                 from D:/Xilinx/Vivado_HLS/2016.4/include/hls_math.h:48,
+                 from ../../../../param_def.h:7,
+                 from ../../../../poly.h:94,
+                 from ../../../../polyfilter_tb.cpp:5:
+D:/Xilinx/Vivado_HLS/2016.4/include/gmp.h:62:0: warning: "__GMP_LIBGMP_DLL" redefined [enabled by default]
+D:/Xilinx/Vivado_HLS/2016.4/include/floating_point_v7_0_bitacc_cmodel.h:135:0: note: this is the location of the previous definition
+../../../../polyfilter_tb.cpp: In function 'int main()':
+../../../../polyfilter_tb.cpp:20:13: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+../../../../polyfilter_tb.cpp:22:18: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+../../../../polyfilter_tb.cpp:23:18: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+../../../../polyfilter_tb.cpp:24:18: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+../../../../polyfilter_tb.cpp:25:18: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+../../../../polyfilter_tb.cpp:26:18: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+../../../../polyfilter_tb.cpp:27:18: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+../../../../polyfilter_tb.cpp:28:18: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+../../../../polyfilter_tb.cpp:29:18: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+../../../../polyfilter_tb.cpp:30:18: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+../../../../polyfilter_tb.cpp:31:18: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+../../../../polyfilter_tb.cpp:32:19: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+../../../../polyfilter_tb.cpp:33:19: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+../../../../polyfilter_tb.cpp:34:19: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+../../../../polyfilter_tb.cpp:35:19: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+../../../../polyfilter_tb.cpp:36:19: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+../../../../polyfilter_tb.cpp:37:19: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+In file included from D:/Xilinx/Vivado_HLS/2016.4/include/floating_point_v7_0_bitacc_cmodel.h:143:0,
+                 from D:/Xilinx/Vivado_HLS/2016.4/include/hls_half.h:40,
+                 from D:/Xilinx/Vivado_HLS/2016.4/include/hls/utils/x_hls_utils.h:37,
+                 from D:/Xilinx/Vivado_HLS/2016.4/include/hls_math.h:48,
+                 from ../../../../param_def.h:7,
+                 from ../../../../fft_top.h:95,
+                 from ../../../../fft_top.cpp:93:
+D:/Xilinx/Vivado_HLS/2016.4/include/gmp.h:62:0: warning: "__GMP_LIBGMP_DLL" redefined [enabled by default]
+D:/Xilinx/Vivado_HLS/2016.4/include/floating_point_v7_0_bitacc_cmodel.h:135:0: note: this is the location of the previous definition
+In file included from D:/Xilinx/Vivado_HLS/2016.4/include/floating_point_v7_0_bitacc_cmodel.h:143:0,
+                 from D:/Xilinx/Vivado_HLS/2016.4/include/hls_half.h:40,
+                 from D:/Xilinx/Vivado_HLS/2016.4/include/hls/utils/x_hls_utils.h:37,
+                 from D:/Xilinx/Vivado_HLS/2016.4/include/hls_math.h:48,
+                 from ../../../../param_def.h:7,
+                 from ../../../../fir.h:4,
+                 from ../../../../fir.cpp:2:
+D:/Xilinx/Vivado_HLS/2016.4/include/gmp.h:62:0: warning: "__GMP_LIBGMP_DLL" redefined [enabled by default]
+D:/Xilinx/Vivado_HLS/2016.4/include/floating_point_v7_0_bitacc_cmodel.h:135:0: note: this is the location of the previous definition
+In file included from D:/Xilinx/Vivado_HLS/2016.4/include/floating_point_v7_0_bitacc_cmodel.h:143:0,
+                 from D:/Xilinx/Vivado_HLS/2016.4/include/hls_half.h:40,
+                 from D:/Xilinx/Vivado_HLS/2016.4/include/hls/utils/x_hls_utils.h:37,
+                 from D:/Xilinx/Vivado_HLS/2016.4/include/hls_math.h:48,
+                 from ../../../../param_def.h:7,
+                 from ../../../../poly.h:94,
+                 from ../../../../polyfilter_top.cpp:2:
+D:/Xilinx/Vivado_HLS/2016.4/include/gmp.h:62:0: warning: "__GMP_LIBGMP_DLL" redefined [enabled by default]
+D:/Xilinx/Vivado_HLS/2016.4/include/floating_point_v7_0_bitacc_cmodel.h:135:0: note: this is the location of the previous definition
+INFO: [SIM 211-1] CSim file generation done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************

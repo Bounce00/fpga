@@ -1,0 +1,9 @@
+INFO: [SIM 2] *************** CSIM start ***************
+WARNING: [SIM 51] HLS only supports CLANG compiler in Linux.
+INFO: [SIM 4] CSIM will launch GCC as the compiler.
+   Compiling ../../../../fft_tb.cpp in debug mode
+   Compiling ../../../../fft_top.cpp in debug mode
+   Generating csim.exe
+ERROR: Can't open stimulus_00.dat
+CRITICAL WARNING: [SIM 100] 'csim_design' failed: nonzero return value.
+INFO: [SIM 3] *************** CSIM finish ***************

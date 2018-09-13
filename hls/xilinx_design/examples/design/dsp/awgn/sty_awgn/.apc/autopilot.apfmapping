@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="awgn.cpp" path="E:\code\hls\xilinx_design\examples\design\dsp\awgn\awgn.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="awgn_tb.cpp" path="E:\code\hls\xilinx_design\examples\design\dsp\awgn\awgn_tb.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>
